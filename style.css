@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  background: rgb(9, 9, 69);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 100vw;
+  padding: 7px;
+}
+
+.starting-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 28px;
+  margin: auto;
+  width: 52%;
+  padding: 30px 0;
+}
+
+.red-span {
+  color: red;
+}
+
+.yellow-bg-span {
+  background: yellow;
+}
+
+.picture {
+  margin: auto;
+  width: 36%;
+}
+
+.ending-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(154, 149, 145);
+  font-weight: bold;
+  margin: auto;
+  width: 52%;
+  padding: 20px;
+}
+
+.bold {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: auto;
+  width: 21%;
+  padding-top: 10px;
+}
+
+.form {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  margin: auto;
+  width: 45%;
+  padding-top: 10px;
+}
+
+.btn {
+  display: block;
+  height: 6vh;
+  width: 42vw;
+  margin: 2vh;
+  background-color: orange;
+  color: white;
+  border: 0ch;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+.footer-para {
+  margin: auto;
+  width: 77%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(154, 149, 145);
+  font-weight: bold;
+}
+
+.p1{
+    padding-bottom: 20px;
+}
+
+.p2{
+    padding-bottom: 20px;
+}
+
+.privacy-tag{
+    font-size: 16px;
+    color: rgb(202, 195, 189);
+}
+
+.btn:hover{
+  color: black;
+  font-weight: bolder;
+}
+
+#question2{
+  display: none;
+}
+
+#question3{
+  display: none;
+}
+
+.afterQuestionsBox{
+  box-shadow: 2px 2px 2px 1px rgba(115, 109, 109, 0.2);
+  width: 42vw;
+  height: 15vh;
+  border-top: 5px solid rgb(23, 2, 73);
+  margin-top: 30px;
+}
+
+#reviewing-answers{
+  display: none;
+}
+
+.reviewing-para{
+  text-align: center;
+  line-height: 100px;
+}
+
+.not-eligible{
+  text-align: center;
+  line-height: 100px;
+}
+
+#not-eligible{
+  display: none;
+}
+
+#matching{
+  display: none;
+}
+
+#confirming{
+  display: none;
+}
+
+.call-box{
+  box-shadow: 2px 2px 2px 1px rgba(115, 109, 109, 0.2);
+  width: 42vw;
+  height: 67vh;
+  border-top: 5px solid rgb(23, 2, 73);
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.last-step{
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+  color: red;
+  margin: auto;
+  width: 81%;
+  padding-bottom: 20px;
+}
+
+.consultation{
+  background: yellow;
+  font-size: 22px;
+  margin: 20px 0;
+  width: 43%;
+  margin: auto;
+}
+
+.cost{
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 20px 0;
+  margin: auto;
+  width: 90%;
+}
+
+.number p{
+  margin: auto;
+  width: 30%;
+}
+#callBtn{
+  background: rgb(4, 110, 4);
+  width: 90%;
+  margin-left: 22px;
+  height: 8vh;
+  color: white;
+  border: 0ch;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#callBtn:hover {
+  background: rgb(45, 232, 98);
+  box-shadow: 0 5px 15px rgba(5, 236, 39, 0.4);
+}
+
+.call-para{
+  font-size: 12px;
+  color: rgb(154, 149, 142);
+  padding-top:40px;
+  margin: auto;
+  width: 95%;
+}
+
+#call{
+  display: none;
+}
+
+@media only screen and (max-width : 600px){
+  header{
+    font-size: 22px;
+  }
+
+  .starting-paragraph{
+    font-size: 20px;
+    width: 74%;
+  }
+
+  .picture img{
+    height: 120px;
+    width: 300px;
+  }
+
+  .picture{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ending-paragraph{
+    font-size: 10px;
+    width: 73%;
+  }
+
+  .bold{
+    font-size: 16px;
+    width: 71%;
+  }
+
+  .form{
+    width: 70%;
+    font-size: 22px;
+  }
+  .question{
+    font-size: 20px;
+    width: 96%;
+  }
+
+  .btn{
+    width: 60vw;
+  }
+
+  .call-box{
+    height: 47vh;
+    width: 74vw;
+  }
+
+  .last-step{
+    font-size: 16px;
+  }
+
+  .consultation{
+    width: 57%;
+    font-size: 13px;
+  }
+
+  .cost{
+    font-size: 10px;
+    width: 92%;
+  }
+
+  .number p{
+    width: 33%;
+  }
+
+  .number{
+    font-size: 16px;
+  }
+
+  #callBtn{
+    height: 5vh;
+    width: 80%;
+  }
+
+  .call-para{
+    font-size: 9px;
+  }
+
+  .footer-para{
+    width: 87%;
+    font-size: 9px;
+  }
+
+  .afterQuestionsBox{
+    width: 74vw;
+    height: 11vh;
+  }
+
+  .reviewing-para{
+    line-height: 91px;
+    text-align:initial;
+  }
+}
